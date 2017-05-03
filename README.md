@@ -4,6 +4,15 @@ You can use the [editor on GitHub](https://github.com/johnclukose/indexed-db-pre
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+Reference :  https://gist.github.com/BigstickCarpet/a0d6389a5d0e3a24814b
+
+TODO : do error handling
+TODO : bug testing
+TODO : test in mobile
+TODO : convert to es6
+TODO : build using npm
+TODO : Strip tags
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
