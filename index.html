@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Table</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="container">
+          <div class="content">
+            <div class="table_content">
+              <div class="jumbotron">
+                <h1>Local Storage : IndexedDB Table</h1><br>
+                <p>A simple bootstrap table to perform CRUD operation </p>
+                <p>
+                  Author : John C Lukose <br>
+                  Contact : johnclukose28@gmail.com
+                </p>
+
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <input type="checkbox" data-style="edit-btn" id="edit-status" data-toggle="toggle" data-on="Edit On" data-off="Edit Off"/>
+                </div>
+                <div class="col-xs-12">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="dynamic-table">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                        </th>
+                      </thead>
+                      <tbody>
+                      <tr>
+                        <td class="editable">John</td>
+                      <tr>
+                      <tr>
+                        <td class="editable">Christoper</td>
+                      <tr>
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn table-action-btn">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script src="js/index.js?v=9"></script>
+  </body>
+</html>

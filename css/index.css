@@ -1,0 +1,10 @@
+#dynamic-table {
+  margin-top: 20px
+}
+
+#dynamic-table tbody td.editable input{
+  width: 100%;
+}
+.table-action-btn, .toggle.edit-btn {
+  float: right;
+}
