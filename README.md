@@ -8,10 +8,4 @@ Create and manage your local storage indexedDB using this panel.
 - TODO : build using npm
 - TODO : Strip tags
 
-[Link](url) and ![Image](src)
-```
-### Reference
-[indexedDB function examples](https://gist.github.com/BigstickCarpet/a0d6389a5d0e3a24814b).
-
-### Contact
-connect with me at johnclukose28@gmail.com or [Facebook](https://www.facebook.com/john.clukose)
+Hosted At : johnclukose.github.io/indexed-db-presentation/index.html
